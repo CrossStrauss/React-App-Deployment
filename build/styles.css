@@ -1,0 +1,153 @@
+@-webkit-keyframes rotateItem {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateItem {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url("https://www.transparenttextures.com/patterns/carbon-fibre.png");
+}
+
+.navbar {
+  width: 100vw;
+  height: 10vh;
+}
+
+.PTable {
+  width: 90vw;
+  height: 75vh;
+  margin: auto;
+  border-radius: 5px;
+  -ms-flex-line-pack: space-evenly;
+      align-content: space-evenly;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[18];
+      grid-template-columns: repeat(18, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10vh;
+  bottom: 1vh;
+}
+
+.tile {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (100%)[1];
+      grid-template-columns: repeat(1, 100%);
+  -ms-grid-rows: 1.5fr 3fr 1.5fr;
+      grid-template-rows: 1.5fr 3fr 1.5fr;
+  width: 5.1vw;
+  height: 4vw;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #DDDDDD;
+  border-radius: 3px;
+  font-size: 0.5vw;
+  border: 2px solid #222831;
+}
+
+.tile:hover {
+  background-color: #222831;
+  color: #DDDDDD;
+}
+
+.hiddenTile {
+  width: 4.7vw;
+  height: 4vw;
+}
+
+.logo {
+  width: 8vw;
+  height: 16.21vh;
+  position: absolute;
+  left: 3.5vw;
+  top: 1vh;
+  border-radius: 50%;
+  border: 4px solid #DDDDDD;
+}
+
+.logo:hover {
+  opacity: 0;
+}
+
+.inner {
+  width: 98vw;
+  height: 3vh;
+  background-color: #DDDDDD;
+  border-radius: 5px;
+}
+
+.dataBox {
+  position: absolute;
+  width: 50vw;
+  height: 35vh;
+  left: 15.7vw;
+  top: 5vh;
+  border-radius: 5px;
+  background-color: #DDDDDD;
+  border: 2px solid #222831;
+}
+
+.rickRoll {
+  width: 8vw;
+  height: 16.21vh;
+  position: absolute;
+  left: 3.5vw;
+  top: 1vh;
+  z-index: -1;
+  border-radius: 50%;
+  border: 4px solid #DDDDDD;
+}
+
+.atomicNum {
+  font-size: 0.8vw;
+  font-weight: bold;
+}
+
+.atomicSymbol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 0.5vw;
+}
+
+.atomicName {
+  font-size: 0.5vw;
+  padding-left: 5%;
+}
+
+ol {
+  margin-left: 1.5vw;
+}
+/*# sourceMappingURL=styles.css.map */
