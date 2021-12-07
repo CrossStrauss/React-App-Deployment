@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/React-App-Deployment/static/js/main.b3f6ef65.chunk.js",
+    "main.js.map": "/React-App-Deployment/static/js/main.b3f6ef65.chunk.js.map",
+    "runtime-main.js": "/React-App-Deployment/static/js/runtime-main.678ca423.js",
+    "runtime-main.js.map": "/React-App-Deployment/static/js/runtime-main.678ca423.js.map",
+    "static/js/2.6fbc5092.chunk.js": "/React-App-Deployment/static/js/2.6fbc5092.chunk.js",
+    "static/js/2.6fbc5092.chunk.js.map": "/React-App-Deployment/static/js/2.6fbc5092.chunk.js.map",
+    "index.html": "/React-App-Deployment/index.html",
+    "static/js/2.6fbc5092.chunk.js.LICENSE.txt": "/React-App-Deployment/static/js/2.6fbc5092.chunk.js.LICENSE.txt",
+    "static/media/atomAnim.d1ccf00a.gif": "/React-App-Deployment/static/media/atomAnim.d1ccf00a.gif",
+    "static/media/rick.f42a0f6f.gif": "/React-App-Deployment/static/media/rick.f42a0f6f.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.678ca423.js",
+    "static/js/2.6fbc5092.chunk.js",
+    "static/js/main.b3f6ef65.chunk.js"
+  ]
+}
